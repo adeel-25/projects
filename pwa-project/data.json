@@ -1,0 +1,45 @@
+{
+  "inventions": [
+
+    {
+      "title": "Light Bulb",
+      "inventor": "Thomas Edison",
+      "description": "Thomas Edison was an American inventor who created many important inventions that changed everyday life. He invented the incandescent light bulb, the phonograph, and the motion picture camera. His inventions helped improve communication, entertainment, and electricity use around the world. Edison became one of the most famous inventors in history because of his creativity and hard work.",
+      "image": "images/thomas.png",
+      "audio": "audio/bulb.mp3"
+    },
+
+    {
+      "title": "Telephone",
+      "inventor": "Alexander Graham Bell",
+      "description": "Alexander Graham Bell was a Scottish-born inventor best known for inventing the telephone. His invention made it possible for people to communicate over long distances instantly. Bell was also interested in helping deaf people and worked as a teacher for the hearing impaired. The telephone became one of the most important inventions in modern communication.",
+      "image": "images/alexG.png",
+      "audio": "audio/telephone.mp3"
+    },
+
+    {
+      "title": "AC Power System",
+      "inventor": "Nikola Tesla",
+      "description": "Nikola Tesla was a Serbian-American inventor and electrical engineer who developed the alternating current (AC) power system. His work helped make electricity safer and more efficient for homes and businesses. Tesla also invented the Tesla coil and contributed to wireless communication technology. Today, he is remembered as one of the greatest scientific minds in history.",
+      "image": "images/nikolaT.png",
+      "audio": "audio/ac.mp3"
+    },
+
+    {
+      "title": "Airplane",
+      "inventor": "Wright Brothers",
+      "description": "The Wright Brothers, Orville and Wilbur Wright, were American inventors who built and flew the world’s first successful airplane. Their first powered flight took place on December 17, 1903, in Kitty Hawk, North Carolina. They carefully studied flight and designed their own aircraft through years of experimentation. Their achievement changed transportation forever and started the modern aviation industry.",
+      "image": "images/wrightBrothers.png",
+      "audio": "audio/airplane.mp3"
+    },
+
+    {
+      "title": "World Wide Web",
+      "inventor": "Tim Berners-Lee",
+      "description": "Tim Berners-Lee is a British computer scientist who invented the World Wide Web. He created the web to help people share information easily through the internet. He also developed important technologies like HTML, HTTP, and URLs that websites still use today. His invention transformed communication, education, and access to information around the world.",
+      "image": "images/bernersl.png",
+      "audio": "audio/web.mp3"
+    }
+
+  ]
+}

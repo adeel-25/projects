@@ -1,0 +1,22 @@
+{
+    "name": "Famous Inventions",
+    "short_name": "Inventions",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#222222",
+
+    "icons": [
+        {
+            "src": "icons/icon.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+
+        {
+            "src": "icons/icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
