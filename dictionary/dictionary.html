@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Multimedia Dictionary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Multimedia Dictionary</h1>
+
+    <div>
+
+        <select id="wordMenu" onchange="showSentence()">
+
+            <option>-- Select a Word --</option>
+
+            <option data-sentence="The cat is sleeping on the sofa.">
+                Cat
+            </option>
+
+            <option data-sentence="The dog is barking loudly.">
+                Dog
+            </option>
+
+            <option data-sentence="The apple is red and sweet.">
+                Apple
+            </option>
+
+            <option data-sentence="The car is very fast.">
+                Car
+            </option>
+
+            <option data-sentence="The moon shines at night.">
+                Moon
+            </option>
+
+        </select>
+
+        <button onclick="speakWord()">
+            Speak Word
+        </button>
+
+    </div>
+
+    <br><br>
+
+    <textarea id="sentenceBox" rows="4" cols="40" readonly></textarea>
+
+    <button onclick="speakSentence()">
+        Speak Sentence
+    </button>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
