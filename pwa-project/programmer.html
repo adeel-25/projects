@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Programmer Documentation</title>
+
+    <style>
+
+        body{
+            font-family: Arial;
+            background:#f4f4f4;
+            padding:30px;
+        }
+
+        .container{
+            background:white;
+            max-width:900px;
+            margin:auto;
+            padding:30px;
+            border-radius:10px;
+        }
+
+        code{
+            background:#eee;
+            padding:2px 5px;
+        }
+
+        pre{
+            background:#eee;
+            padding:15px;
+            overflow:auto;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Programmer Documentation</h1>
+
+        <h2>Modifying the Dataset</h2>
+
+        <p>
+            The application content is stored inside
+            <code>data.json</code>.
+        </p>
+
+        <p>
+            Each invention contains:
+        </p>
+
+        <ul>
+            <li>title</li>
+            <li>inventor</li>
+            <li>description</li>
+            <li>image</li>
+            <li>audio</li>
+        </ul>
+
+        <h2>Example JSON Object</h2>
+
+<pre>
+{
+  "title": "Light Bulb",
+  "inventor": "Thomas Edison",
+  "description": "Information here",
+  "image": "images/thomas.png",
+  "audio": "audio/thomasEdison.mp3"
+}
+</pre>
+
+        <h2>Adding New Topics</h2>
+
+        <ol>
+            <li>Add a new object inside <code>data.json</code>.</li>
+            <li>Add the image into the <code>images</code> folder.</li>
+            <li>Add the audio into the <code>audio</code> folder.</li>
+            <li>Update <code>service-worker.js</code> if new files are added.</li>
+        </ol>
+
+        <h2>Project Files</h2>
+
+        <ul>
+            <li>index.html</li>
+            <li>style.css</li>
+            <li>script.js</li>
+            <li>data.json</li>
+            <li>manifest.json</li>
+            <li>service-worker.js</li>
+        </ul>
+
+    </div>
+
+</body>
+
+</html>
