@@ -1,0 +1,37 @@
+body {
+
+    font-family: Arial;
+
+    background-color: lightblue;
+
+    padding: 30px;
+
+}
+
+
+
+h1 {
+
+    color: darkblue;
+
+}
+
+
+
+select,
+button,
+textarea {
+
+    font-size: 18px;
+
+    margin-top: 10px;
+
+}
+
+
+
+textarea {
+
+    width: 400px;
+
+}
